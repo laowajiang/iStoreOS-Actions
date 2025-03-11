@@ -228,13 +228,11 @@ jobs:
 
         🌳 分支: ${{ matrix.REPO_BRANCH }}
 
-        ⏱️ 编译时间: $(date +"%Y年%m月%d日%H时%M分")
-
         🌐 管理地址: 192.168.100.1
 
         👤 用户名: root
 
-        🔒 密码: password " >> release.txt
+        🔒 密码:  " >> release.txt
         echo "::set-output name=status::success"
 
     - name: 自动发布固件到 Releases
