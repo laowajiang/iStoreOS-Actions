@@ -138,11 +138,11 @@ cp -rf ../../kiddin9/luci-app-ramfree/* luci-app-ramfree
 # mkdir luci-app-usb3disable
 # cp -rf ../../kiddin9/luci-app-usb3disable/* luci-app-usb3disable
 #NetData（系统监控）
-mkdir luci-app-netdata
-cp -rf ../../kiddin9/luci-app-netdata/* luci-app-netdata
+# mkdir luci-app-netdata
+# cp -rf ../../kiddin9/luci-app-netdata/* luci-app-netdata
 #rtbwmon（实施流量）
-mkdir luci-app-rtbwmon
-cp -rf ../../kiddin9/luci-app-rtbwmon/* luci-app-rtbwmon
+# mkdir luci-app-rtbwmon
+# cp -rf ../../kiddin9/luci-app-rtbwmon/* luci-app-rtbwmon
 
 # 存储相关应用
 # Gowebdav（iStoreOS已有）
