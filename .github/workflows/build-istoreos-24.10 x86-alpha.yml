@@ -25,7 +25,7 @@ on:
    - cron: 0 16 * * *
 
 env:
-  REPO_URL: https://github.com/laoyingmi/istoreos
+  REPO_URL: https://github.com/laowajiang/istoreos.git
   # REPO_BRANCH: main
   FEEDS_CONF: feeds.conf
   CONFIG_FILE: .config
